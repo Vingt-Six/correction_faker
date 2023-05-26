@@ -1,0 +1,16 @@
+{% extends 'seedcorrection/base.html' %}
+
+{% block content %}
+<h1>Je suis la page Employee</h1>
+{% comment %} <section>
+    {% for item in salary %}
+    <p>{{ item.firstname }} {{ item.salaire }}</p>
+    {% endfor %}
+</section> {% endcomment %}
+{% comment %} {% for item in e22 %}
+<p>{{ item.firstname }} {{ item.date_embauche }}</p>
+{% endfor %} {% endcomment %}
+{% for item in alls %}
+<p>{{ item.firstname }} {{ item.email }}</p>
+{% endfor %}
+{% endblock content %}
