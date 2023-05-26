@@ -19,5 +19,6 @@ from employee.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home)
+    path('', home, name="home"),
+    path('create/employee/', createemployee, name="createE"),
 ]

@@ -2,6 +2,7 @@
 
 {% block content %}
 <h1>Je suis la page Employee</h1>
+<a href={% url 'createE' %}>Create</a>
 {% comment %} <section>
     {% for item in salary %}
     <p>{{ item.firstname }} {{ item.salaire }}</p>
